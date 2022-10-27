@@ -4,7 +4,7 @@ body{
 
 #body-header{
     height: 100vh;
-    opacity: 0.6;
+    opacity: 0.9;
     background-image: url(Images/Snapchat-623880811\ \(1\).jpg);
     background-size: cover;
     background-position: center;
@@ -14,24 +14,52 @@ body{
 .horizonal_list{
     list-style: none;
     padding-left: 0px;
+    margin: 0px;
 }
 
 .horizonal_list li{
     display: inline-block;
-    margin: 0px 48px 48px 0;
+    margin: 0px 32px 32px 0;
 }
 
 .horizonal_list a{
-    color:brown;
-    font-size: medium;
-    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
 
 .text-center{
     text-align: center;
 }
-.horizonal_list a:hover{
-    color: red;
+.nav-menu a:hover{
+    color:aqua;
     font-size: larger;
+}
+
+#SocialContainer{
+    margin-top: 20vh;
+}
+
+#myname{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+   border-radius: 50%; 
+   /*to make icon circular */
+    padding: 9px;
+    font-size: 2rem;
+    
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px skyblue;
+}
+
+.nav-menu li a{
+    transition: color 0.5s, boder-bottom;
 }
