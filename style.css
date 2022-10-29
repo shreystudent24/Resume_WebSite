@@ -5,10 +5,11 @@ body{
 #body-header{
     height: 100vh;
     opacity: 0.9;
+    position: relative;
     background-image: url(Images/Snapchat-623880811\ \(1\).jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+     background-attachment: fixed;
 }
 
 .horizonal_list{
@@ -69,8 +70,32 @@ body{
     width: 100%;
 }
 
-#MyImage{
-    height: 12rem;
-    width: 12rem;
-    margin: auto;
+/* img{
+    border-radius: 50%;
+    ;
+} */
+
+.profile {
+   height: 50%;
+   width: 22%;
+   display: block;
+   align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 49%;
+    margin-top: -200px;
+    position: relative;
+    border-image: 10px #000080;
+}
+/* .profile:hover{
+    height: 100%;
+    width: 100%;
+}  */
+
+#intro{
+    flex-direction: row;
+    align-content: center;
+    margin: 70px;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
