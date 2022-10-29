@@ -63,3 +63,14 @@ body{
 .nav-menu li a{
     transition: color 0.5s, boder-bottom;
 }
+
+#about{
+    height: auto;
+    width: 100%;
+}
+
+#MyImage{
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+}
