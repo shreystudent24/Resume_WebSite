@@ -171,7 +171,7 @@ section:nth-child(2n+1){
 
 /* Percentage Class */
 .ninty-five-per{
-    width: 95%;
+    width: 100%;
     height: inherit;
 }
 
