@@ -148,8 +148,6 @@ section:nth-child(2n+1){
 /* Old Skills Display Section */
 .Skills-Display{
     width: 70%;
-    /* height: 100px;
-    border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -220,36 +218,36 @@ section:nth-child(2n+1){
     padding-right: 60px;
     padding-bottom: 60px;
     display: flex;
-    flex-direction: column; 
-
+    justify-content: space-between;
 } 
 
+ 
 .DevOps{
     height: 160px;
     width: auto;
-    text-align: center;
-    
-    /* flex-direction: column; */
+    /* float: left; */
 }
 
 .MERN{
-    height: 170px;
+    height: 180px;
     width: auto;
-    margin-left: 15px;
-    /* float: left; */
-    /* flex-direction: column; */
+    
 }
 
-.Same{
-    vertical-align: middle;
-    display: flex;
-    /* flex-direction: column; */
-}
+
 
 .CPP{
     height: 150px;
     width: auto;
-    /* float: right; */
+}
 
+.DSA{
+    height: 160px;
+    width: auto;
+}
+
+.py{
+    height: 165px;
+    width: auto;
 }
 
