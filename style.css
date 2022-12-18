@@ -219,11 +219,37 @@ section:nth-child(2n+1){
     padding-left: 60px;
     padding-right: 60px;
     padding-bottom: 60px;
+    display: flex;
+    flex-direction: column; 
+
 } 
 
 .DevOps{
     height: 160px;
-    width: 350px;
+    width: auto;
     text-align: center;
+    
+    /* flex-direction: column; */
+}
+
+.MERN{
+    height: 170px;
+    width: auto;
+    margin-left: 15px;
+    /* float: left; */
+    /* flex-direction: column; */
+}
+
+.Same{
+    vertical-align: middle;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.CPP{
+    height: 150px;
+    width: auto;
+    /* float: right; */
+
 }
 
